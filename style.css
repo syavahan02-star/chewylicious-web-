@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: white;
+}
+
+/* NAVBAR MODEL TABEL */
+.navbar {
+    width: 100%;
+    background: skyblue;
+    text-align: center;
+}
+
+.navbar td {
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    border-bottom: 3px solid white;
+}
+
+/* CONTENT */
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+/* BANNER */
+.banner {
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* PRODUK */
+.produk {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    color: skyblue;
+    font-weight: bold;
+}
